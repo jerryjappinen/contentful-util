@@ -1,0 +1,41 @@
+{
+  "name": "contentful-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
+    "lint": "eslint --ignore-path .gitignore \"**/*.{js,ts}\"",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:fix:dry": "npm run lint -- --fix-dry-run",
+    "dev": "vitest",
+    "test": "vitest run"
+  },
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "./lib",
+    "src": "./src"
+  },
+  "dependencies": {
+    "@contentful/rich-text-types": "^15.13.2",
+    "contentful": "^9.2.5",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "vitest": "^0.24.1"
+  }
+}
