@@ -1,14 +1,14 @@
-# fetch-deep-contentful-data
+# contentful-util
 
 Small utility library that fetches data from the Contentful JSON API, with additional levels of nested references.
 
 ## Usage
 
-In your project, import `fetch-deep-contentful-data` and create your own utility function to fetch contentful data from your own space like this.
+In your project, import `contentful-util` and create your own utility function to fetch contentful data from your own space like this.
 
 ```js
 // my-utils/fetchContentfulData.js
-import { createClient, fetch } from 'fetch-deep-contentful-data'
+import { createClient, fetch } from 'contentful-util'
 
 const space = 'abc123'
 const accessToken = 'def456'
@@ -54,7 +54,7 @@ However, especially when working with client-side state management like Vuex or 
 To achieve this, you can use the `extractNestedEntries` helper.
 
 ```js
-import { extractNestedEntries } from 'fetch-deep-contentful-data'
+import { extractNestedEntries } from 'contentful-util'
 
 import fetchContentfulData from  'my-utils/fetchContentfulData'
 
