@@ -1,4 +1,8 @@
-import { BLOCKS, INLINES } from '@contentful/rich-text-types'
+import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types'
+
+export { BLOCKS as blocks }
+export { INLINES as inlines }
+export { MARKS as marks }
 
 export const isCustomBlock = (nodeType) => {
   return nodeType === BLOCKS.EMBEDDED_ENTRY

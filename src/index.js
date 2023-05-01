@@ -5,6 +5,7 @@ export { default as fetchFlat } from './fetchFlat'
 
 // Helpers
 export { default as getContentType } from './getContentType'
+export { default as richTextTypes } from './richTextTypes'
 export { default as valueIsEntry } from './valueIsEntry'
 export { default as valueIsListOfEntries } from './valueIsListOfEntries'
 export { default as valueIsRichTextField } from './valueIsRichTextField'

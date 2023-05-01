@@ -4,7 +4,7 @@ import keyBy from 'lodash-es/keyBy'
 import uniq from 'lodash-es/uniq'
 
 import fetchList from './fetchList'
-import { isCustomEntry } from './richTextType'
+import { isCustomEntry } from './richTextTypes'
 import valueIsRichTextField from './valueIsRichTextField'
 
 const getEmbeddedIds = (response) => {
