@@ -1,6 +1,6 @@
 {
   "name": "contentful-util",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "",
   "main": "lib/index.js",
   "engines": {
@@ -15,7 +15,14 @@
     "dev": "vitest",
     "test": "vitest run"
   },
-  "author": "",
+  "author": {
+    "name": "Jerry Jäppinen",
+    "url": "https://github.com/jerryjappinen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerryjappinen/contentful-util.git"
+  },
   "license": "MIT",
   "directories": {
     "lib": "./lib",
