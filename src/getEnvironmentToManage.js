@@ -1,7 +1,7 @@
-import { createClient } from 'contentful-management'
+import contentful from 'contentful-management'
 
 export default async (managementAccessToken, spaceId, environment) => {
-  const managementClient = createClient({
+  const managementClient = contentful.createClient({
     accessToken: managementAccessToken
   })
 

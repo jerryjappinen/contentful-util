@@ -1,4 +1,4 @@
-import { createClient } from 'contentful'
+import contentful from 'contentful'
 
 // Export constructor that can be used elsewhere
 export default ({
@@ -8,7 +8,7 @@ export default ({
   previewAccessToken,
   environment
 }) => {
-  return createClient({
+  return contentful.createClient({
     space: spaceId || space,
     host: previewAccessToken ? 'preview.contentful.com' : undefined,
     environment: environment || 'master',
