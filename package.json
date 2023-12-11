@@ -1,6 +1,6 @@
 {
   "name": "contentful-util",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "lib/index.js",
   "engines": {
@@ -29,8 +29,8 @@
     "src": "./src"
   },
   "dependencies": {
-    "contentful": "^10.6.4",
-    "contentful-management": "^11.2.0",
+    "contentful": "^10.6.14",
+    "contentful-management": "^11.6.1",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
